@@ -1210,7 +1210,7 @@ int mineAction(struct gameState *state, int j, int currentPlayer, int choice1, i
     
     if (choice2 > treasure_map || choice2 < curse)
     {
-        return -1;
+        return 0;
     }
     
     if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
