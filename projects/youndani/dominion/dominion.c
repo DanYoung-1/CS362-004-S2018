@@ -1111,7 +1111,7 @@ int adventurerAction(int drawntreasure, int currentPlayer, struct gameState *sta
 
 int smithyAction(int currentPlayer, struct gameState *state, int handPos) {
     //+3 Cards
-    for (i = 0; i < 3; i++) {
+    for (i = 0; i <= 3; i++) {
         drawCard(currentPlayer, state);
     }
     
