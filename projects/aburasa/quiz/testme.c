@@ -12,7 +12,7 @@ char inputChar()
 char *inputString()
 {
     int n = rand() % 300;
-    char *str[300]= {'\0'};
+    char str[300]= {'\0'};
     for (int i = 0; i < n; i++) {
         str[i] = inputChar();
     }
